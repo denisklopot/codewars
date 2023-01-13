@@ -6,3 +6,11 @@ function gooseFilter(birds) {
     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
     return birds.filter((x) => !geese.includes(x));
 };*/
+
+//DO
+/*
+function consonantCount(str) {
+    return str.split('').filter(s => s !== 'a', 'e', 'i', 'o', 'u').join(' ')
+}
+
+consonantCount('Name')*/
